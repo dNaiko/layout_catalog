@@ -1,8 +1,10 @@
+@import 'variables';
+
 @mixin transition($property: all) {
   transition: $property $transition-time ease-in-out;
 }
 
-@mixin button($bg, $hover-bg, $property: background-color) {
+@mixin button($bg, $hover-bg, $color: #fff, $property: background-color) {
   background: $bg;
   color: $color;
   padding: 10px 15px;
