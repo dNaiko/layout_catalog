@@ -10,7 +10,7 @@
   text-decoration: none;
   display: inline-block;
 
-  @include transition($background-color);
+  @include transition(background-color);
 
   &:hover {
     background: $button-hover-bg;
